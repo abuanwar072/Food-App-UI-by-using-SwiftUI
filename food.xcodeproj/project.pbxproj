@@ -13,6 +13,17 @@
 		8821893025BEC29B00820A7E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8821892F25BEC29B00820A7E /* Preview Assets.xcassets */; };
 		8821893B25BEC29B00820A7E /* foodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8821893A25BEC29B00820A7E /* foodTests.swift */; };
 		8821894625BEC29B00820A7E /* foodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8821894525BEC29B00820A7E /* foodUITests.swift */; };
+		8821895825BEC82400820A7E /* HomeNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8821895725BEC82400820A7E /* HomeNavBarView.swift */; };
+		8821896525BEC93500820A7E /* Hellix-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8821896025BEC93500820A7E /* Hellix-Regular.ttf */; };
+		8821896625BEC93500820A7E /* Hellix-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8821896125BEC93500820A7E /* Hellix-Thin.ttf */; };
+		8821896725BEC93500820A7E /* Hellix-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8821896225BEC93500820A7E /* Hellix-Bold.ttf */; };
+		8821896825BEC93500820A7E /* Hellix-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8821896325BEC93500820A7E /* Hellix-Medium.ttf */; };
+		8821896925BEC93500820A7E /* Hellix-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8821896425BEC93500820A7E /* Hellix-SemiBold.ttf */; };
+		8821896E25BEFE3C00820A7E /* SearchAndFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8821896D25BEFE3C00820A7E /* SearchAndFilterView.swift */; };
+		8821897325BF073800820A7E /* FreshRecipesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8821897225BF073800820A7E /* FreshRecipesView.swift */; };
+		8821897825BF257E00820A7E /* SectionTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8821897725BF257E00820A7E /* SectionTitleView.swift */; };
+		8821897D25BF2D7600820A7E /* RecommendedRecipeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8821897C25BF2D7600820A7E /* RecommendedRecipeCardView.swift */; };
+		8821898225BF2DE800820A7E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8821898125BF2DE800820A7E /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +56,17 @@
 		8821894125BEC29B00820A7E /* foodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = foodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8821894525BEC29B00820A7E /* foodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodUITests.swift; sourceTree = "<group>"; };
 		8821894725BEC29B00820A7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8821895725BEC82400820A7E /* HomeNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavBarView.swift; sourceTree = "<group>"; };
+		8821896025BEC93500820A7E /* Hellix-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hellix-Regular.ttf"; sourceTree = "<group>"; };
+		8821896125BEC93500820A7E /* Hellix-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hellix-Thin.ttf"; sourceTree = "<group>"; };
+		8821896225BEC93500820A7E /* Hellix-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hellix-Bold.ttf"; sourceTree = "<group>"; };
+		8821896325BEC93500820A7E /* Hellix-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hellix-Medium.ttf"; sourceTree = "<group>"; };
+		8821896425BEC93500820A7E /* Hellix-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hellix-SemiBold.ttf"; sourceTree = "<group>"; };
+		8821896D25BEFE3C00820A7E /* SearchAndFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAndFilterView.swift; sourceTree = "<group>"; };
+		8821897225BF073800820A7E /* FreshRecipesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreshRecipesView.swift; sourceTree = "<group>"; };
+		8821897725BF257E00820A7E /* SectionTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionTitleView.swift; sourceTree = "<group>"; };
+		8821897C25BF2D7600820A7E /* RecommendedRecipeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedRecipeCardView.swift; sourceTree = "<group>"; };
+		8821898125BF2DE800820A7E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +117,8 @@
 		8821892725BEC29900820A7E /* food */ = {
 			isa = PBXGroup;
 			children = (
+				8821895F25BEC8EE00820A7E /* fonts */,
+				8821895625BEC81300820A7E /* Views */,
 				8821892825BEC29900820A7E /* foodApp.swift */,
 				8821892A25BEC29900820A7E /* ContentView.swift */,
 				8821892C25BEC29B00820A7E /* Assets.xcassets */,
@@ -128,6 +152,31 @@
 				8821894725BEC29B00820A7E /* Info.plist */,
 			);
 			path = foodUITests;
+			sourceTree = "<group>";
+		};
+		8821895625BEC81300820A7E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8821895725BEC82400820A7E /* HomeNavBarView.swift */,
+				8821896D25BEFE3C00820A7E /* SearchAndFilterView.swift */,
+				8821897225BF073800820A7E /* FreshRecipesView.swift */,
+				8821897725BF257E00820A7E /* SectionTitleView.swift */,
+				8821897C25BF2D7600820A7E /* RecommendedRecipeCardView.swift */,
+				8821898125BF2DE800820A7E /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8821895F25BEC8EE00820A7E /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8821896225BEC93500820A7E /* Hellix-Bold.ttf */,
+				8821896325BEC93500820A7E /* Hellix-Medium.ttf */,
+				8821896025BEC93500820A7E /* Hellix-Regular.ttf */,
+				8821896425BEC93500820A7E /* Hellix-SemiBold.ttf */,
+				8821896125BEC93500820A7E /* Hellix-Thin.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +282,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8821896725BEC93500820A7E /* Hellix-Bold.ttf in Resources */,
 				8821893025BEC29B00820A7E /* Preview Assets.xcassets in Resources */,
+				8821896625BEC93500820A7E /* Hellix-Thin.ttf in Resources */,
+				8821896925BEC93500820A7E /* Hellix-SemiBold.ttf in Resources */,
+				8821896825BEC93500820A7E /* Hellix-Medium.ttf in Resources */,
+				8821896525BEC93500820A7E /* Hellix-Regular.ttf in Resources */,
 				8821892D25BEC29B00820A7E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +313,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8821895825BEC82400820A7E /* HomeNavBarView.swift in Sources */,
+				8821897D25BF2D7600820A7E /* RecommendedRecipeCardView.swift in Sources */,
 				8821892B25BEC29900820A7E /* ContentView.swift in Sources */,
+				8821896E25BEFE3C00820A7E /* SearchAndFilterView.swift in Sources */,
+				8821897325BF073800820A7E /* FreshRecipesView.swift in Sources */,
+				8821898225BF2DE800820A7E /* HomeView.swift in Sources */,
 				8821892925BEC29900820A7E /* foodApp.swift in Sources */,
+				8821897825BF257E00820A7E /* SectionTitleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
