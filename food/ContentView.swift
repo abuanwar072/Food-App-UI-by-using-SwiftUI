@@ -12,7 +12,7 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            HomeView()
+            Text("The Flutter Way")
         }
     }
 }
