@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:gif.gif">
+   </FileRef>
+   <FileRef
+      location = "group:ui.png">
+   </FileRef>
+   <FileRef
       location = "self:">
    </FileRef>
 </Workspace>
