@@ -24,6 +24,7 @@
 		8821897825BF257E00820A7E /* SectionTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8821897725BF257E00820A7E /* SectionTitleView.swift */; };
 		8821897D25BF2D7600820A7E /* RecommendedRecipeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8821897C25BF2D7600820A7E /* RecommendedRecipeCardView.swift */; };
 		8821898225BF2DE800820A7E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8821898125BF2DE800820A7E /* HomeView.swift */; };
+		884FDFB625C403E500B05042 /* gif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 884FDFB525C403E500B05042 /* gif.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		8821897725BF257E00820A7E /* SectionTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionTitleView.swift; sourceTree = "<group>"; };
 		8821897C25BF2D7600820A7E /* RecommendedRecipeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedRecipeCardView.swift; sourceTree = "<group>"; };
 		8821898125BF2DE800820A7E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		884FDFB525C403E500B05042 /* gif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gif.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		8821891C25BEC29900820A7E = {
 			isa = PBXGroup;
 			children = (
+				884FDFB525C403E500B05042 /* gif.gif */,
 				8821892725BEC29900820A7E /* food */,
 				8821893925BEC29B00820A7E /* foodTests */,
 				8821894425BEC29B00820A7E /* foodUITests */,
@@ -283,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8821896725BEC93500820A7E /* Hellix-Bold.ttf in Resources */,
+				884FDFB625C403E500B05042 /* gif.gif in Resources */,
 				8821893025BEC29B00820A7E /* Preview Assets.xcassets in Resources */,
 				8821896625BEC93500820A7E /* Hellix-Thin.ttf in Resources */,
 				8821896925BEC93500820A7E /* Hellix-SemiBold.ttf in Resources */,
