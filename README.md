@@ -6,6 +6,5 @@ By using SwiftUI we design Food Delivery App home page, which contains a search 
 
 ### Food Delivery App Home Page Final UI
 
-![Preview](/gif.gif)
 
-![App UI](/ui.png)
+![App UI](https://i.imgur.com/BP2WwpG.png)
